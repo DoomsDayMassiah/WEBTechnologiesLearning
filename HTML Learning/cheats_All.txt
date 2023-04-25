@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--Title defines what to show in the tab head-->
+    
+    <title>HTML Cheatsheet</title>
+</head>
+<body>
+
+    <!--Basic Tags-->
+
+    <!--<h1> Heading </h1>-->
+
+    <h1>Welcome to my HTML Cheetsheet</h1> 
+    <h2>Hii</h2>
+    <h3>I am Ishwar</h3>
+    <h4>I have made this Document for quick revision</h4>
+    <h5>Hope this will prove helpful</h5>
+    <h6>Kudos!!!</h6>
+
+    <!--<p> Paragraph </p>-->
+
+    <p>This is the 1st paragraph</p>
+    <p>This is the 2nd paragraph</p>
+    <p>This is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraph</p>
+
+    <!--<pre> Preformatted Text </pre>-->
+
+    <pre>This is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraphThis is the 2nd paragraph</pre>
+    <pre>Twinkle Twinkle 
+         Jingle
+         Jingle
+    </pre>
+
+    <!--<a href= "URL"> Link Text </a>-->
+    <!--<br> is a non paired tag to start a new line-->
+
+    <a href="https://www.youtube.com/watch?v=UDtsCF1pTQM&list=PLHt2-5yOJNcZxjIZZKySjlXW8ryqFtwR7&index=3&t=2401s&ab_channel=KodNest">Take me to Kodnest Web Technology class</a>
+    <br>
+    <br>
+    <a href="https://www.google.com" target=""> visit Google on the new page </a>
+
+    <!--Inline tags don't have internal line break-->
+    
+    <a href="URL1">Inline example1</a>
+    <a href="URL2">Inline example2</a>
+    <a href="URL3">Inline example3</a>
+    <br>
+    <a href="URL4">Inline example4</a>
+
+    <!--Block Level tags implement internal line break-->
+
+    <p>This is</p><p>what</p>
+    <p>an</p><p>OG told</p>
+             <P>me.</P>
+
+    <!--Multimedia tags are a new feature of HTML 5-->
+
+    <!--Image Tag is unpaired and inline-->
+
+    <img src="Bike.jpg" height="100px" width="150px"><br>
+    <img src="https://5.imimg.com/data5/GE/JK/QG/SELLER-989864/yamaha-bike-500x500.png" height="100px" width="150px"><br>
+
+    <!--Video Tag is paired and inline-->
+
+    <video src="VID_21330615_065934_229.mp4" height="200px" width="300px" controls></video> 
+    <br>
+
+    <!--Audio tag is paired and inline-->
+
+    <audio src="URL" height="5px" width="40px" controls></audio>
+    <br>
+
+    <!--Text Formatting Tags-->
+
+    <!--
+        1. <i></i>
+        2. <u></u>
+        3. <b></b>
+        4. <strong></strong> --logical tag
+        5. <em></em>         --logical tag, else are 'physical tags'
+        6. <mark></mark>
+        7. <strike></strike>
+        8. <sub></sub>
+        9. <sup></sup>
+       10. <big></big>
+       11. <small></small>
+
+    -->
+
+    <p><i>This is italic text</i></p>
+    <p><b>This is bold text</b></p>
+    <p><u>This is underlined text</u></p>
+    <p><strong>This is strong text i.e. is bold in style but has special meaning for the browser</strong></p>
+    <p><em>This is emphasised text i.e. is italic in style but has special meaning for the browsers. Screen readers for the blind people creates a verbal stress while reading this text.</em></p>
+    <p><mark>This is marked text</mark></p>
+    <p><strike>This is a text which is striked-through</strike></p>
+    <p>This shows<sub>subscript</sub></p>
+    <p>This shows<sup>superscript</sup></p>
+    <p><big>This text is bigger than the normal text by one conventional unit</big></p>
+    <p><small>This text is smaller than the normal text by one conventional unit</small></p>
+
+    <!--Lists- 
+     
+    1.Ordered List
+    2.Unordered List
+    3.Discription List
+    
+    --> 
+    
+    <!--Ordered List
+    
+        <ol></ol> tag is used to define the list
+        <li></li> tag is used to define the list element
+
+        'type' attribute is used wuth <ol> tag to select the type of order i.e. 123,i ii iii, abc etc
+        
+        'start attribute is used' with <ol> tag to specify the starting value of ordered list
+        
+        'reverced' attribute is used with <ol> tag to reverce the order of the list.
+            
+    -->
+    
+    <h5> These are some examples of ordered list of programming languages</h3>
+    <ol>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>C++</li>
+        <li>C#</li>
+    </ol>
+
+    <ol type="A" start="10" >
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+    </ol>
+
+    <ol reversed>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>C++</li>
+        <li>C#</li>
+    </ol>
+
+    <!--unordered List
+    
+        <ul></ul> tag is used to define the list
+        <li></li> tag is used to define the list element
+
+        'type' attribute is used wuth <ol> tag to select the type of order i.e. disc(default), circle, square, none
+        
+    -->
+
+    <h5>These are some examples of Unordered lists</h5>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>SQL</li>
+    </ul>
+
+    <ul type="circle">
+        <li>MySQL</li>
+        <li>Oracle</li>
+        <li>Apache</li>
+        <li>MongoDB</li>
+    </ul>
+
+    
+    <ul type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>SQL</li>
+    </ul>
+
+    <ul type="none">
+        <li>MySQL</li>
+        <li>Oracle</li>
+        <li>Apache</li>
+        <li>MongoDB</li>
+    </ul>
+
+    <!--Discription/Definition List
+    
+       <dl></dl> tag is used to define a discription list
+       <dt></dt> tag is used to define a data term of a discription list
+       <dd></dd> tag is used to define a data discription of a data term of a discription list
+
+    -->
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>It is a markup language</dd>
+        <dt>Java</dt>
+        <dd>It is an object oriented programming language</dd>
+        <dt>SQL</dt>
+        <dd>It is a query language</dd>
+    </dl>
+
+    <!--Nested Tables
+
+        One table(any type) inside another(any type)
+    
+    -->
+    <h5>This is an example of nested list:</h5>
+    <ol>
+        <li>
+            <dl>
+                <dt>Frontend Technologies</dt>
+                <dd>These are used to design the server side of a web application
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React.js</li>
+                    </ul>
+                </dd>
+            </dl>
+        </li>
+
+        <li>
+            <dl>
+                <dt>Backend Technologies</dt>
+                <dd>These are used to design the server side of a web application
+                    <ul>
+                        <li>Java-Spring</li>
+                        <li>Python-Django</li>
+                        <li>Javascript-Node.js</li>                       
+                    </ul>
+                </dd>
+            </dl>
+        </li>
+
+        <li>
+            <dl>
+                <dt>Database</dt>
+                <dd>It stores all the data of a web application
+                    <ul>
+                        <li>Relational</li>
+                        <li>Non-Relational</li>                        
+                    </ul>
+                </dd>
+            </dl>
+        </li>
+    </ol>
+
+    <!--Tables in HTML
+        it is used to display data in tabular form
+    
+        <table></table> tag is used
+
+        <tr></tr>	It defines a row in a table.
+
+        <th></th>	It defines a header cell in a table.
+        <td></td>	It defines a data cell in a table.
+
+        <caption></caption> tag is used to give caption to the table. Used just after opening <table> tag.
+            like <title> wrt <html>
+    
+    -->
+
+    <h5>Below is shown a typical table in HTML</h5>
+
+    <table border>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Ishwar</td>
+            <td>23</td>
+            <td>96</td>
+        </tr>
+        <tr>
+            <td>Satyam</td>
+            <td>30</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Adeen</td>
+            <td>25</td>
+            <td>70</td>
+        </tr>
+    </table>
+
+    <!--rowspan attribute is used with <td></td> tag to merge the rows
+        
+        colspan attribute is used with <tr></tr> tag to merge the columns
+    -->
+    <br>
+    <table border>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Ishwar</td>
+            <td>23</td>
+            <td rowspan="2" >Bangalore</td>
+        </tr>
+        <tr>
+            <td>Satyam</td>
+            <td>30</td>
+            
+        </tr>
+        <tr>
+            <td>Adeen</td>
+            <td>25</td>
+            <td>Hyderabad</td>
+        </tr>
+    </table>
+
+    <h5>This is an implementation of rowspan and colspan</h5>
+
+    <table border>
+        <caption>This is a calculation sheet</caption>
+        <tr>
+            <th rowspan="3">Calculation</th>
+            <th colspan="2">Addition</th>
+            <th colspan="2">Subtraction</th>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>10</td>
+            <td>20</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td colspan="2">20</td>
+            <td colspan="2">10</td>
+        </tr>
+    </table>
+
+        <!--Forms
+            HTML forms are required if you want to collect some data from of the site visitor.
+
+            An HTML form facilitates the user to enter data that is to be sent to the server for processing such as name, email address, password, phone number, etc. .
+
+            <form action="server url" method="get|post">  
+            //input controls e.g. textfield, textarea, radiobutton, button  
+            </form>
+
+            Note: The <form> element does not itself create a form but it is container to contain all required form elements, such as <input>, <label>, etc.
+                     
+            All the Form elements should be present inside the <form></form> tag only.
+
+            Associated fields with Form
+
+            1. Name Box
+            2. Email Box
+            3. Number Box (Spin control)
+            4. Phone Number Box
+            5. check Box
+            6. Radio buttons
+            7. Submit Button
+            8. Reset Button
+            9. Upload Button
+            10. Search Box
+            11. Color Pallet
+            12. Range Button
+            13. Dropdown Menu
+
+            only use required attributes for the respective fields 
+        -->
+
+        <!-- Use <fieldset></fieldset> tag to group all the form elements and give it a border-->
+
+        <hr>
+        <marquee><h3><i>Welcome user!! Please fill up the given form.</i></h3></marquee>
+        <hr>
+
+        <fieldset>
+        <form>
+            <label>Name: </label>
+
+            <input type="text" 
+            required  
+            placeholder="Enter your name" 
+            pattern="[a-zA-z]{3,15}"
+            title="Check your name again !!">
+
+            <p>Minimum age should be 18 and maximum age should be 29</p>
+
+            <label>Age:</label>
+
+            <input type="Number"
+            min="18" 
+            max="29"><br><br>     <!--Input type number always gives spin control-->
+
+            <p>1. First digit of phone number can be anything between 7-9</p>
+            <p>2. Rest nine digits of the phone number can be any digit between 0-9</p>
+
+
+            <label>Phone Number:</label>
+
+            <input type="text" 
+            required
+            placeholder="Enter 10 digit Phone Number"
+            pattern="^[7-9]{1}[0-9]{9}" 
+            title="Please enter the 10 digits of phone number only...!">
+
+        <br><br>
+
+            <!-- ^ indicates starting and $ indicates ending -->
+
+            <!-- email field should be created by input type="email" -->
+
+            <p>Enter the email</p>
+    
+            <label>Email:</label>
+
+            <!--
+
+            <input type="text" //Use type="email" to store emails
+            required
+            placeholder="Enter your email here"
+            pattern="[a-zA-Z0-9@]+@[a-zA-Z]+.[a-z]{2,4}">
+
+            If text type is used here, it will intake as many @ as it wants but email shouls contain only 1 @.
+
+            It will not show the warning to use only 1 @ in the tooltip.
+
+            -->
+
+            <input type="email" 
+            required
+            placeholder="Enter your email here"
+            pattern="[a-zA-Z0-9]+@[a-zA-Z]+.[a-z]{2,4}"> <!--Patterns are important-->
+
+            <!-- 
+                Checkboxes
+                
+                Using checkboxes, the user can be made to select among some options
+
+                Checkboxes are created by input type="checkbox"
+
+                When using checkboxes, more than one options can be selected by the user even 
+                when they are grouped under same name group. (No need of name grouping in the creation of checkbox)
+            
+            -->
+
+            <p>Select your technical skills:</p>
+
+            <label>Technical skills:</label>
+
+            <input type="checkbox" name="skill">Java
+            <input type="checkbox" name="skill">Python
+            <input type="checkbox" name="skill">C++
+            <input type="checkbox" name="skill">PHP
+            <input type="checkbox" name="skill">Dart
+
+            <!-- 
+                Radio buttons
+
+                Using Radio Buttons, the user can be made to select among some options or one option out of some.
+
+                Radio Buttons are created by input type="radio"
+
+                When using Radio Buttons, more than one options can be selected by the user,
+
+                when they are grouped under same name group only one option will be allowed.
+
+                Radio buttons can not be deselected by clicking twice. The user can change options between a set of radio buttons, but it cannot be deselected.
+                Form need to be reset to deselect the Radio buttons.
+
+                Make sure the linked radio buttons have the same value for their name HTML attribute
+
+            -->
+
+            <p>Select your Gender</p>
+
+            <label>Gender:</label>
+
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Others 
+
+        <br><br>
+
+            <!--
+                Select box-Dropdown menu
+
+                It is created using <select></select> tag which is a paired inline tag
+
+                The options in the dropdown menu are given using <option></option> tag which is a paired and inline tag
+
+                Give first option as 'select' otherwise the first option will reflect as the default choice.
+            -->
+
+            <label>Select your city:</label>
+
+            <select>
+                <option>Select</option>
+                <option>Delhi</option>
+                <option>Bombay</option>
+                <option>Pune</option>
+                <option>Bangalore</option>
+                <option>Hyderabad</option>
+            </select>
+
+        <br><br>
+
+            <!--
+                Upload Button
+
+                Upload button can be created by input type="file"
+            -->
+
+            <label>Upload your files here:</label>
+
+            <input type="file">
+
+            <!-- 
+                calander
+
+                It is created using input type="date"
+
+                Default format dd-mm-yy
+
+                min and max attributes are used to define minimum and maximum date that can be entered
+
+                min and max should be given in yy-mm-dd format
+
+                Format of display in the browser depends on the system format also
+            -->
+
+            <label>Calander:</label>
+
+            <input type="date" min="2012-03-16" max="2025-03-16">
+
+        <br><br>
+
+            <!--
+                Range button 
+
+                It can be created using input type="range"
+
+                It takes the input in the form of range.
+            -->
+
+            <label>Range button</label>
+
+            <input type="range">
+
+        <br><br>
+
+            <!--
+                Color pallet
+
+                created using input type="color"
+            -->
+
+            <label>Color pallet</label>
+
+            <input type="color">
+
+        <br><br>
+
+            <!--
+                Search Button
+
+                It is created using input type="search"
+            -->
+
+            <label>Search:</label>
+
+            <input type="search">
+
+        <br><br>
+
+            <!--
+                Text Area
+
+                It is made using <textarea></textarea> which is an inline paired tag.
+
+                Whatever is given as this tag content is shown as a placeholder inside the textarea.
+
+                It is textbox area with the multiline text comtrol
+            -->
+
+            <textarea>Give your feedback here...!</textarea>
+          
+           
+        <br><br>
+            <input type="submit">
+        <br><br>
+            <input type="reset">
+    
+           
+        </form>
+    </fieldset>
+
+</body>
+</html>
